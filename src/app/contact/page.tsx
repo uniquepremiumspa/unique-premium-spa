@@ -203,12 +203,12 @@ export default function ContactPage() {
                         onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                         className="w-full px-3.5 py-2.5 rounded-lg border border-pink-200 text-xs sm:text-sm focus:outline-hidden focus:border-[var(--color-primary)] focus:ring-1 focus:ring-[var(--color-primary)] bg-white"
                       >
-                        <option value="Full Body Massage">Full Body Massage (₹1,500)</option>
-                        <option value="Complete Sessions">Complete Sessions (₹2,499)</option>
-                        <option value="B2B Massage">B2B Massage (₹2,999)</option>
-                        <option value="Sandwich Massage">Sandwich 4-Hand Massage (₹3,999)</option>
-                        <option value="Couple Massage">Couple VIP Massage (₹6,000)</option>
-                        <option value="Thai Massage">Authentic Thai Massage</option>
+                        <option value="Full Body Massage">Full Body Massage (Indian / Foreign Therapist)</option>
+                        <option value="Complete Sessions">Complete Sessions (Indian / Foreign Therapist)</option>
+                        <option value="B2B Massage">B2B Massage (Indian / Foreign Therapist)</option>
+                        <option value="Sandwich Massage">Sandwich 4-Hand Massage (Dual / Foreign Therapist)</option>
+                        <option value="Couple Massage">Couple VIP Massage (Indian / Foreign Therapist)</option>
+                        <option value="Thai Massage">Authentic Thai Massage (Native Thai / Foreign Therapist)</option>
                       </select>
                     </div>
                   </div>
@@ -219,7 +219,7 @@ export default function ContactPage() {
                     </label>
                     <textarea
                       rows={3}
-                      placeholder="e.g. Today at 5:00 PM, prefer female therapist..."
+                      placeholder="e.g. Today at 5:00 PM, prefer Foreign / Russian / Thai therapist..."
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-3.5 py-2.5 rounded-lg border border-pink-200 text-xs sm:text-sm focus:outline-hidden focus:border-[var(--color-primary)] focus:ring-1 focus:ring-[var(--color-primary)]"

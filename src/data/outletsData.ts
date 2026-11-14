@@ -1,4 +1,4 @@
-export interface OutletData {
+﻿export interface OutletData {
   slug: string;
   name: string;
   shortName: string;
@@ -10,6 +10,9 @@ export interface OutletData {
   phone: string;
   image: string;
   tag: string;
+  price?: string;
+  foreignTherapistAvailable?: boolean;
+  therapistImage?: string;
   description: string;
   features: string[];
   specialties: string[];
@@ -29,13 +32,16 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/pullman-aerocity.jpg",
     tag: "5-Star Ultra Luxury",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Our premier 5-star flagship outlet located at Pullman New Delhi Aerocity delivers world-class rejuvenation right in the heart of Delhi's luxury airport hospitality district. Featuring grand private therapy suites, state-of-the-art steam & shower facilities, and discreet VIP access.",
     features: [
       "Discreet VIP suite with attached jacuzzi and private rain shower",
       "Prime Aerocity location — 5 mins from IGI Airport Terminal 3",
       "Full valet parking and round-the-clock five-star concierge access",
-      "Trained and certified female therapists with 5+ years experience",
+      "Elite Foreign & Certified Indian therapists available (Expat Russian, European & Oriental specialists)",
       "Imported therapeutic aroma essential oils and herbal steam treatments",
     ],
     specialties: [
@@ -60,13 +66,16 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/lemon-tree-aerocity.jpg",
     tag: "Express & Transit Bliss",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Located at Lemon Tree Premier in Aerocity, this upscale spa outlet is designed for discerning travelers, business executives, and transit visitors needing instant jet lag recovery and soothing relaxation.",
     features: [
       "Instant walk-in and priority call reservations for transit travelers",
       "Sound-insulated peaceful therapy chambers with aroma diffusers",
       "Private hot showers, steam, and fresh sanitised organic linen",
-      "Specialized express jet-lag recovery therapies (45/60/90 mins)",
+      "Foreign expat therapists & certified Indian specialists available",
       "Zero hassle parking and smooth contactless hospitality check-in",
     ],
     specialties: [
@@ -91,12 +100,15 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/ibis-aerocity.jpg",
     tag: "Popular Comfort Spa",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "A peaceful oasis in Aerocity at ibis Hotel, offering top-tier relaxation treatments at approachable pricing. Ideal for both routine wellness sessions and spontaneous stress-relief visits.",
     features: [
       "Modern, immaculate treatment rooms with soft mood lighting",
       "High hygiene standards with disposable kits and sanitized rooms",
-      "Certified therapists trained in Thai, Swedish, and B2B techniques",
+      "Choice of International Foreign therapists & expert Indian therapists",
       "Complete privacy and zero disturbance guarantee",
       "Complimentary detox green tea and post-therapy refreshment",
     ],
@@ -122,13 +134,16 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/the-royal-plaza.jpg",
     tag: "4-Star Luxury Boutique",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Situated on prestigious Ashoka Road in the heart of Connaught Place, our luxury spa outlet at Hotel The Royal Plaza offers an indulgent royal oasis for travelers, business executives, and wellness seekers looking for soothing comfort in Central Delhi.",
     features: [
       "Ultra-luxurious royal spa chambers with peaceful ambient lighting",
       "Heart-of-Delhi prime location on Ashoka Road with secure valet parking",
       "Attached private rain shower, aromatic steam, and plush fresh linen",
-      "Certified therapists specialized in deep pressure and gentle relaxation",
+      "Skilled Foreign therapists & certified Indian professionals",
       "Discreet VIP suites with 100% privacy and confidentiality guaranteed",
     ],
     specialties: [
@@ -153,12 +168,15 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/the-suryaa-nfc.jpg",
     tag: "South Delhi Oasis",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Nestled inside the iconic 5-star The Suryaa New Delhi at New Friends Colony, this boutique luxury spa caters to South Delhi's refined residents, expats, and visiting guests seeking quiet, restorative indulgence.",
     features: [
       "Serene private suites overlooking hotel greens & swimming pool",
       "Private hydrotherapy bathtubs and eucalyptus steam rooms",
-      "Top-tier certified therapists specializing in restorative rituals",
+      "Foreign expat therapists & certified Indian senior practitioners",
       "Discreet and dignified environment with high guest confidentiality",
       "Ample dedicated hotel parking with valet assistance",
     ],
@@ -184,6 +202,9 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/jaypee-vasant-continental.jpg",
     tag: "5-Star Heritage Luxury",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Located within the lush green enclave of Jaypee Vasant Continental near Vasant Kunj and Vasant Vihar, this luxury spa provides a calm sanctuary away from city chaos, surrounded by sprawling foliage and heritage hospitality.",
     features: [
@@ -191,7 +212,7 @@ export const outletsData: OutletData[] = [
       "Close to major South Delhi malls (DLF Promenade, Ambience, Emporio)",
       "Premium cold-pressed organic botanical oils and herbal blends",
       "Complete wellness amenities including steam, sauna, and shower",
-      "100% verified certified female therapists with polite conduct",
+      "International Foreign therapists & verified certified female therapists",
     ],
     specialties: [
       "Botanical Herbal Oil Massage",
@@ -215,12 +236,15 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/radisson-gurugram.jpg",
     tag: "Cyber City Corporate Bliss",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Strategically situated adjacent to DLF Cyber City at Radisson Gurugram Udyog Vihar, this high-end spa outlet serves corporate titans, entrepreneurs, and busy professionals needing quick revitalization and prolonged deep relaxation.",
     features: [
       "Extended operating hours until 11:00 PM for late evening decompression",
       "Ultra-modern acoustic-insulated private suites with attached showers",
-      "Specialized therapies targeted at desk posture fatigue and mental stress",
+      "Foreign therapist choice & certified Indian wellness therapists",
       "Direct NH-8 access with secure underground parking & valet",
       "Private VIP reservations with total identity privacy guaranteed",
     ],
@@ -246,13 +270,16 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/the-ashok-chanakyapuri.jpg",
     tag: "Grand Diplomatic Heritage",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Located inside the iconic 5-star The Ashok Hotel in Chanakyapuri's prestigious Diplomatic Enclave, this premier wellness outlet offers palatial tranquility, world-class privacy, and royal spa therapies designed for elite diplomats, dignitaries, and connoisseurs of luxury.",
     features: [
       "Palatial private therapy suites with luxury marble finishes & serene lighting",
       "Prime Diplomatic Enclave location with tight security and total VIP privacy",
       "Comprehensive hydro-facilities including steam rooms, sauna & rain showers",
-      "Highly trained and verified professional female therapists",
+      "Prestigious Foreign therapists & verified 5-star certified therapists",
       "Dedicated 5-star hotel valet parking and effortless arrival experience",
     ],
     specialties: [
@@ -277,13 +304,16 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/roseate-house-aerocity.jpg",
     tag: "Contemporary Ultra-Luxury",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Set in the ultra-chic and contemporary Roseate House New Delhi, our luxury Aerocity spa outlet delivers cutting-edge wellness treatments in an ambiance of understated opulence, curated especially for jet-setters and discerning lifestyle guests.",
     features: [
       "Architecturally stunning treatment rooms with calming acoustic design",
       "Steps away from Terminal 3 & Terminal 1 with swift VIP lounge access",
       "Exquisite private jacuzzi baths, eucalyptus steam, and rainfall showers",
-      "Elite certified therapists specialized in global restorative therapies",
+      "International Foreign therapists & certified global wellness experts",
       "Valet parking with discreet hotel elevator access to spa floor",
     ],
     specialties: [
@@ -308,13 +338,16 @@ export const outletsData: OutletData[] = [
     phone: "+91 97188 92869",
     image: "/outlets/andaz-hotel-aerocity.jpg",
     tag: "Hyatt Concept Luxury",
+    price: "₹12,999",
+    foreignTherapistAvailable: true,
+    therapistImage: "/therapists/foreign-therapist.jpg",
     description:
       "Experience bespoke mindful therapies at our luxury wellness outlet in Andaz Delhi, Aerocity. Blending artisanal craft with modern rejuvenation techniques, this sanctuary offers unmatched indulgence, utmost discretion, and customized full-body wellness.",
     features: [
       "Expansive private therapy chambers with custom mood lighting and ambient sound",
       "Prime Asset 1 location right at the entrance of Aerocity Hospitality District",
       "Organic apothecary massage oils and herbal concoctions",
-      "Certified therapists with master certifications in relaxation & pressure point work",
+      "Foreign expat therapists & certified master wellness therapists",
       "Complete discreet VIP entrance with multi-level private valet parking",
     ],
     specialties: [

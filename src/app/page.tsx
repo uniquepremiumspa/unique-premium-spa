@@ -74,8 +74,8 @@ export default function Home() {
               <ShieldCheck className="w-5 h-5 text-white" />
             </div>
             <div>
-              <h4 className="font-bold text-sm sm:text-base tracking-wide">Certified Therapists</h4>
-              <p className="text-[11px] sm:text-xs text-white/80 font-light">Trained & experienced hands</p>
+              <h4 className="font-bold text-sm sm:text-base tracking-wide">Certified &amp; Foreign Therapists</h4>
+              <p className="text-[11px] sm:text-xs text-white/80 font-light">Trained Indian &amp; Foreign specialists</p>
             </div>
           </div>
 
@@ -442,7 +442,7 @@ export default function Home() {
                 <ul className="space-y-2.5 text-xs text-gray-600 mb-6 font-normal">
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-primary)] shrink-0" />
-                    <span>Certified female/male therapist choice</span>
+                    <span>Indian &amp; Foreign therapist choice</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-primary)] shrink-0" />
@@ -506,6 +506,10 @@ export default function Home() {
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-primary)] shrink-0" />
                     <span>Complete full-body therapeutic gliding</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-primary)] shrink-0" />
+                    <span>Indian or Foreign therapist available</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-primary)] shrink-0" />

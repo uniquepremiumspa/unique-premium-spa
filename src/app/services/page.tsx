@@ -25,7 +25,7 @@ export default function ServicesPage() {
             Our Signature Services
           </h1>
           <p className="text-xs sm:text-sm text-gray-600 max-w-xl mx-auto font-normal leading-relaxed">
-            Six carefully curated treatments across our Delhi NCR luxury suites — each performed by licensed, certified therapists.
+            Six carefully curated treatments across our Delhi NCR luxury suites — each performed by licensed Indian &amp; certified Foreign therapists.
           </p>
         </div>
 
@@ -58,9 +58,14 @@ export default function ServicesPage() {
                 )}
               </div>
               <div className="p-2.5 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-3 bg-white">
-                <h3 className="text-xs sm:text-base font-bold tracking-tight text-gray-900 group-hover:text-[var(--color-primary)] transition-colors line-clamp-1 sm:line-clamp-none">
-                  {service.title}
-                </h3>
+                <div>
+                  <h3 className="text-xs sm:text-base font-bold tracking-tight text-gray-900 group-hover:text-[var(--color-primary)] transition-colors line-clamp-1 sm:line-clamp-none">
+                    {service.title}
+                  </h3>
+                  <span className="text-[10px] text-[var(--color-primary)] font-semibold flex items-center gap-1 mt-0.5">
+                    ✨ Foreign &amp; Indian Therapist Available
+                  </span>
+                </div>
                 <a
                   href="tel:+919718892869"
                   className="w-full sm:w-auto shrink-0 relative z-20 px-2.5 sm:px-4 py-1.5 sm:py-2.5 rounded-lg bg-[var(--color-primary)] text-white font-bold text-[10px] sm:text-xs tracking-wider uppercase hover:bg-[var(--color-primary-hover)] transition-all flex items-center justify-center gap-1 shadow-sm hover:scale-105"

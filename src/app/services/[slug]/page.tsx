@@ -95,6 +95,9 @@ export default async function ServiceDetailPage({ params }: Props) {
             <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-pink-200 bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/15">
               {service.subtitle}
             </span>
+            <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-pink-100 bg-[var(--color-primary)]/80 backdrop-blur-md px-3 py-1 rounded-full border border-pink-300/30 flex items-center gap-1.5 shadow-sm">
+              <Sparkles className="w-3 h-3 text-yellow-300" /> Foreign &amp; Indian Therapist Available
+            </span>
             <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-white/90 bg-white/15 backdrop-blur-md px-3 py-1 rounded-full border border-white/15 flex items-center gap-1.5">
               <Clock className="w-3 h-3 text-pink-300" /> {service.duration}
             </span>
@@ -142,8 +145,8 @@ export default async function ServiceDetailPage({ params }: Props) {
               <ShieldCheck className="w-4 h-4 text-white" />
             </div>
             <div>
-              <h4 className="font-bold text-xs sm:text-sm tracking-wide">Certified Therapists</h4>
-              <p className="text-[10px] sm:text-[11px] text-white/80 font-light">Trained &amp; verified specialists</p>
+              <h4 className="font-bold text-xs sm:text-sm tracking-wide">Certified &amp; Foreign Therapists</h4>
+              <p className="text-[10px] sm:text-[11px] text-white/80 font-light">Trained Indian &amp; Foreign specialists</p>
             </div>
           </div>
 
@@ -191,6 +194,26 @@ export default async function ServiceDetailPage({ params }: Props) {
                     {p}
                   </p>
                 ))}
+              </div>
+
+              {/* Foreign & Indian Certified Therapists Highlight Box */}
+              <div className="bg-gradient-to-r from-pink-50 to-[#fff0f6] rounded-xl p-6 border border-pink-200/80 shadow-xs flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div className="w-12 h-12 rounded-xl bg-[var(--color-primary)] text-white flex items-center justify-center shrink-0 shadow-md shadow-pink-500/20">
+                  <Award className="w-6 h-6" />
+                </div>
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-[10px] font-bold uppercase tracking-wider bg-[var(--color-primary)] text-white px-2 py-0.5 rounded-sm">
+                      Special Privilege
+                    </span>
+                    <h3 className="text-sm sm:text-base font-bold text-gray-900">
+                      Foreign &amp; Indian Therapist Choice
+                    </h3>
+                  </div>
+                  <p className="text-xs text-gray-600 font-light leading-relaxed">
+                    This therapy is available with certified Indian specialists as well as high-profile <strong>Foreign / International therapists</strong> (European, Russian &amp; Oriental). Let our concierge know your therapist preference while reserving your private suite.
+                  </p>
+                </div>
               </div>
 
               {/* Proven Health Benefits */}
@@ -269,7 +292,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                     <div className="w-4 h-4 rounded-full bg-pink-50 text-[var(--color-primary)] flex items-center justify-center shrink-0">
                       <Check className="w-2.5 h-2.5 stroke-[3]" />
                     </div>
-                    <span>Certified female or male therapist choice</span>
+                    <span className="font-medium text-pink-900">Foreign &amp; Indian therapist option</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-4 h-4 rounded-full bg-pink-50 text-[var(--color-primary)] flex items-center justify-center shrink-0">

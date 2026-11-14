@@ -83,9 +83,14 @@ export default async function OutletDetailPage({ params }: Props) {
             <ArrowLeft className="w-3.5 h-3.5" /> Back to All Outlets
           </Link>
 
-          <span className="text-[11px] sm:text-xs font-semibold tracking-[0.22em] uppercase text-pink-300 block mb-2">
-            {outlet.tag} • {outlet.zone}
-          </span>
+          <div className="flex flex-wrap items-center justify-center gap-2 mb-3">
+            <span className="text-[11px] sm:text-xs font-semibold tracking-[0.2em] uppercase text-pink-300 bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/15">
+              {outlet.tag} • {outlet.zone}
+            </span>
+            <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-white bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/15">
+              Hotel Rate: {outlet.price || "₹12,999"}
+            </span>
+          </div>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-4 drop-shadow-md">
             {outlet.name}
@@ -136,6 +141,37 @@ export default async function OutletDetailPage({ params }: Props) {
               <p className="text-sm text-gray-600 leading-relaxed font-light mb-6">
                 {outlet.description}
               </p>
+
+              {/* Foreign Therapist Special Feature */}
+              <div className="pt-2 pb-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+                  <div className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden border border-pink-200 shadow-xs shrink-0">
+                    <Image
+                      src={outlet.therapistImage || "/therapists/foreign-therapist.jpg"}
+                      alt="Foreign Therapist"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="space-y-1.5 flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--color-primary)]">
+                        Special Feature
+                      </span>
+                      <span className="text-gray-300">•</span>
+                      <span className="text-xs font-semibold text-gray-700">
+                        Foreign Therapist Available
+                      </span>
+                    </div>
+                    <h3 className="text-base sm:text-lg font-bold text-gray-900">
+                      Foreign &amp; Certified Indian Therapists
+                    </h3>
+                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-light">
+                      Professional therapies conducted by certified <strong>Foreign / Expat therapists</strong> (European, Russian &amp; Oriental) and expert Indian therapists in our hotel suites at <strong>{outlet.price || "₹12,999"}</strong> per session.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
               {/* Key Highlights */}
               <h3 className="text-base font-bold text-gray-900 mb-3 flex items-center gap-2">
@@ -211,6 +247,21 @@ export default async function OutletDetailPage({ params }: Props) {
               <p className="text-xs text-gray-500 mb-6 font-light">
                 Same-day walk-in or advance booking available. VIP suites with private showers guaranteed.
               </p>
+
+              <div className="py-2 mb-4 border-b border-pink-100 pb-4">
+                <span className="text-[10px] uppercase font-bold text-gray-500 tracking-wider block mb-0.5">
+                  Hotel Suite Rate
+                </span>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-2xl font-extrabold text-[var(--color-primary)]">
+                    {outlet.price || "₹12,999"}
+                  </span>
+                  <span className="text-xs text-gray-500 font-normal">/ session</span>
+                </div>
+                <p className="text-[11px] text-gray-600 mt-1">
+                  Foreign &amp; Indian therapist choice included
+                </p>
+              </div>
 
               <div className="space-y-3 mb-6">
                 <div className="text-xs text-gray-600 flex items-start gap-2">

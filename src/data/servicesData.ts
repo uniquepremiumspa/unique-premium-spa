@@ -32,11 +32,13 @@ export const servicesData: ServiceDetail[] = [
     benefits: [
       "Releases deep muscular tension and stiffness",
       "Boosts lymphatic flow and eliminates lactic acid build-up",
+      "Choice of certified Indian or skilled Foreign / International therapists",
       "Improves blood circulation and restores natural vitality",
       "Reduces cortisol stress levels while promoting restful sleep"
     ],
     whatToExpect: [
       "A brief consultation with our specialist to address your specific pressure preferences.",
+      "Choice of qualified Indian or experienced Foreign therapist according to your preference.",
       "Custom application of warm, hypoallergenic aromatherapy essential oils.",
       "A systematic head-to-toe session targeting shoulders, back, limbs, and feet.",
       "Complimentary herbal tea and private shower amenities post-therapy."
@@ -45,6 +47,10 @@ export const servicesData: ServiceDetail[] = [
       {
         question: "What is included in a Full Body Massage?",
         answer: "A full body massage covers the back, shoulders, neck, arms, legs, hands, and feet using specialized gliding strokes and warm herbal oils."
+      },
+      {
+        question: "Are Foreign therapists available for this service?",
+        answer: "Yes, we provide certified Indian as well as skilled Foreign / International therapists across our Delhi NCR outlets. You can request your preferred therapist while booking."
       },
       {
         question: "Can I choose my preferred pressure level?",
@@ -74,12 +80,14 @@ export const servicesData: ServiceDetail[] = [
     ],
     benefits: [
       "Multi-modality approach combining pressure relief with soothing aromatherapy",
+      "Option to choose trained Foreign / Expat or Indian female therapists",
       "Relieves stubborn chronic tension around the neck, spine, and lower back",
       "Deeply hydrates and nourishes the skin with pure organic botanical extracts",
       "Clears mental fog and induces profound meditative calm"
     ],
     whatToExpect: [
       "A personalized consultation to select tailored organic aromatherapy blends.",
+      "Therapist selection: request Indian or certified Foreign therapists prior to session.",
       "Steamed herbal compress therapy applied to key meridians and muscle groups.",
       "Continuous synchronized strokes targeting upper and lower body knots.",
       "Private relaxation lounge with herbal refreshments."
@@ -88,6 +96,10 @@ export const servicesData: ServiceDetail[] = [
       {
         question: "How does a Complete Session differ from a standard massage?",
         answer: "Complete Sessions integrate multiple therapeutic techniques including hot compress, acupressure points, and customized organic aromatherapy oils for a holistic reset."
+      },
+      {
+        question: "Can I book a Foreign therapist for Complete Sessions?",
+        answer: "Yes, Foreign therapists (including European, Russian, and Thai certified specialists) are available upon advance request at all our prime Delhi NCR outlets."
       },
       {
         question: "How long does a Complete Session last?",
@@ -114,12 +126,14 @@ export const servicesData: ServiceDetail[] = [
     ],
     benefits: [
       "Unmatched sensory decompression and psychological detachment from stress",
+      "Available with premium Foreign therapists as well as expert Indian therapists",
       "Continuous, fluid gliding strokes that soothe large muscle groups effortlessly",
       "Enhances peripheral blood circulation and cellular rejuvenation",
       "Complete privacy in our VIP soundproof suites"
     ],
     whatToExpect: [
       "Private suite entry with 100% confidentiality and discretion.",
+      "Therapist selection: Indian or elite Foreign therapist as per your booking preference.",
       "Warm aromatic oil bath preparation with ambient calming lighting.",
       "Fluid, rhythmic bodywork conducted by licensed, certified therapists.",
       "Private ensuite bathroom and refreshment service."
@@ -128,6 +142,10 @@ export const servicesData: ServiceDetail[] = [
       {
         question: "Is B2B massage conducted in private suites?",
         answer: "Yes, all our B2B sessions take place in dedicated, soundproof VIP private suites ensuring total privacy and confidentiality."
+      },
+      {
+        question: "Are Foreign therapists available for B2B massage?",
+        answer: "Yes, elite Foreign therapists are available for B2B Massage. You can easily specify your preference for a foreign therapist over phone or WhatsApp."
       },
       {
         question: "What oils are used during the B2B session?",
@@ -154,12 +172,14 @@ export const servicesData: ServiceDetail[] = [
     ],
     benefits: [
       "Double the therapeutic relief in a single session",
+      "Option to choose dual Foreign therapists, dual Indian, or combination pairs",
       "Neurological decompression as synchronized strokes override active mental focus",
       "Intense muscle relief across both left and right muscular chains simultaneously",
       "Fastest relief for chronic burnout and high cognitive stress"
     ],
     whatToExpect: [
       "Coordination by two senior therapists trained in synchronized touch.",
+      "Therapist choice: request two Foreign therapists or combination therapist preference upon booking.",
       "Dual application of warm essential oils across symmetrical energy pathways.",
       "Seamless choreographed flow covering back, legs, arms, and head concurrently.",
       "Post-massage VIP lounge relaxation."
@@ -168,6 +188,10 @@ export const servicesData: ServiceDetail[] = [
       {
         question: "What exactly is a Sandwich / Four-Hand Massage?",
         answer: "It is a synchronized massage therapy performed by two therapists at the same time in mirrored harmony, doubling the relaxation impact."
+      },
+      {
+        question: "Can I request Foreign therapists for a Sandwich 4-Hand Massage?",
+        answer: "Yes, you can request two Foreign therapists or an Indian-Foreign combo for our signature four-hand massage session."
       },
       {
         question: "Why is it considered more effective for mental stress?",
@@ -194,11 +218,13 @@ export const servicesData: ServiceDetail[] = [
     benefits: [
       "Shared tranquil bonding experience free from daily digital distractions",
       "Individualized treatments tailored to each partner's distinct pressure preferences",
+      "Option to choose expert Indian or international Foreign therapists for each partner",
       "Private VIP suite with exclusive hydrotherapy and steam amenities",
       "Perfect celebration for anniversaries, birthdays, or weekend getaways"
     ],
     whatToExpect: [
       "Welcome herbal tea upon arrival in our private couples consultation suite.",
+      "Therapist preference selection for each partner (Indian or Foreign therapist available).",
       "Selection of distinct organic massage oils and pressure preferences for each partner.",
       "Simultaneous side-by-side massage by two dedicated therapists.",
       "Private soak, shower, and relaxation time in the ensuite suite."
@@ -207,6 +233,10 @@ export const servicesData: ServiceDetail[] = [
       {
         question: "Do both partners have to get the same massage therapy?",
         answer: "Not at all. One partner can opt for deep tissue therapy while the other chooses Swedish relaxation or aromatherapy."
+      },
+      {
+        question: "Can we request Foreign therapists for the Couple Massage?",
+        answer: "Yes, both partners can choose their preferred therapists—including certified Foreign and Indian therapists—to accompany their session."
       },
       {
         question: "Is the couple suite completely private?",
@@ -232,12 +262,14 @@ export const servicesData: ServiceDetail[] = [
     ],
     benefits: [
       "Dramatically improves joint mobility and muscular flexibility",
+      "Conducted by authentic Native Thai & Foreign certified therapists",
       "Assists in natural spinal alignment and corrects sedentary posture",
       "Stimulates internal energy channels and relieves stiffness",
       "Invigorating and energizing without leaving any oily residue"
     ],
     whatToExpect: [
       "Comfortable traditional massage attire provided on arrival.",
+      "Authentic treatment conducted by certified Thai / Foreign practitioners.",
       "Session conducted on an authentic plush Thai floor futon.",
       "Passive stretching movements combined with gentle palm and thumb acupressure.",
       "A feeling of lightness, flexibility, and recharged energy afterwards."
@@ -246,6 +278,10 @@ export const servicesData: ServiceDetail[] = [
       {
         question: "Do I need to take off my clothes for Thai Massage?",
         answer: "No, authentic Thai massage is performed fully clothed in loose, comfortable cotton garments that we provide upon arrival."
+      },
+      {
+        question: "Are Foreign / Native Thai therapists available for this session?",
+        answer: "Yes, our Authentic Thai Massage is administered by authentic Thai and Foreign certified practitioners specialized in ancient Bangkok & Chiang Mai techniques."
       },
       {
         question: "Are oils used in Thai Massage?",

@@ -31,6 +31,7 @@ export default function PricingPage() {
       popular: true,
       features: [
         "Intensive B2B & full-body pressure work",
+        "Choice of Indian or Foreign therapist",
         "Customized essential organic oils",
         "Private suite with steam & hot shower",
         "Complimentary detox herbal beverage",
